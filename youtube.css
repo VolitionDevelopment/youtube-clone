@@ -1,0 +1,114 @@
+body{
+    background-color: #f1f1f1;
+}
+
+.logo{
+    background: no-repeat url(http://s.ytimg.com/yts/imgbin/www-hitchhiker-vflNlthLq.webp) -568px -75px;
+    background-size: auto;
+    width: 102px;
+    height: 30px;
+    display: inline-block;
+}
+
+.navbar-default{
+    background-color: white;
+}
+
+.navbar-brand{
+    padding-top: 10px;
+    padding-bottom: 8px;
+    padding-right: 40px;
+}
+
+.hamburger{
+    background: no-repeat url(http://s.ytimg.com/yts/imgbin/www-hitchhiker-vflNlthLq.webp) -423px -231px;
+    background-size: auto;
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    margin-right: 10px;
+    margin-left: 25px;
+    margin-bottom: 5px;
+}
+
+.form-control{
+    border-radius: 0;
+    width: 500px;
+    font-size: 16px;
+    font-family: Roboto, arial, sans-serif;
+    padding: 5px;
+}
+
+.search{
+    height: 30px;
+    width: 70px;
+    background-color: #F8F8F8;
+    border-radius: 0;
+    margin-left: -5px;
+}
+
+.navbar-nav .navbar-form{
+    padding-top: 2px;
+}
+
+.content .large{
+    margin: auto;
+    width: 1300px;
+}
+
+.related{
+    padding: 30px 5px 5px;
+    width: 100%;
+}
+
+.video{
+    height: 100vh;
+    width: 854px;
+    padding: 0;
+}
+
+.title{
+    word-wrap: break-word;
+    overflow: hidden;
+    color: #333;
+    font-size: 12px;
+    font-weight: 800;
+    font-family: Roboto, arial, sans-serif;
+}
+
+.related-videos{
+    box-sizing: border-box;
+    padding: 10px;
+    background-color: white;
+    float: right;
+    width: 420px;
+}
+
+.description{
+    font-size: 11px;
+    color: #767676;
+    display: block;
+}
+
+a{
+    color: inherit;;
+}
+
+a:hover{
+    text-decoration: none;
+    color: #167ac6;
+}
+
+.video-desc{
+    width: 100%;
+    background-color: white;
+    height: 200px;
+    padding: 15px;
+
+}
+
+.video-desc .title{
+    font-size: 20px;
+    font-weight: normal;
+    margin-top: 0;
+}
