@@ -112,3 +112,36 @@ a:hover{
     font-weight: normal;
     margin-top: 0;
 }
+
+.btn-subscribe{
+    background-color: #E62117;
+    color: #fefefe;
+    height: 24px;
+    font-size: 12px;
+    font-weight: 500;
+    border-radius: 3px;
+    padding: 4px 5px;
+    box-sizing: border-box;
+    line-height: 15px;
+}
+
+.btn-subscribers{
+    background-color: #fafafa;
+    color: #737373;
+    height: 24px;
+    font-size: 11px;
+    padding: 4px 8px;
+    box-sizing: border-box;
+    line-height: 15px;
+    margin-left: -2px;
+    border-radius: 0 3px 3px 0;
+}
+
+.btn-subscribe:hover{
+    background-color: #ba2118;
+    color: #fefefe;
+}
+
+.icon-subscribe{
+    margin-top: -1px;
+}
