@@ -1,0 +1,133 @@
+.header{
+    height: 50px;
+    line-height: 50px;
+    border-bottom: 1px solid black;
+}
+
+.header h1{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.wrapper{
+    width: 90%;
+    margin: auto;
+    font-family: Arial, serif;
+}
+
+.nav{
+    margin-top: 20px;
+    border-bottom: 1px solid black;
+    padding: 20px 0;
+}
+
+.logo-container, .search-container, .account-container{
+    display: inline-block;
+}
+
+.logo-container{
+    width: 20%;
+    margin-bottom: 15px;
+}
+
+.logo{
+    background: no-repeat url(http://s.ytimg.com/yts/imgbin/www-hitchhiker-vflNlthLq.webp) -568px -75px;
+    background-size: auto;
+    width: 102px;
+    height: 30px;
+}
+
+.search-container {
+    width: 50%;
+}
+
+.search-container input[type=text]{
+    width: 200px;
+}
+
+.navbar ul li{
+    display: inline-block;
+    border-right: 1px solid black;
+    padding: 0 10px;
+    margin-top: 10px;
+}
+
+.navbar ul li a.active{
+    text-decoration: none;
+    color: black;
+}
+
+.navbar ul li:last-child{
+    border-right: none;
+}
+
+.account-container{
+    width: 18%;
+    text-align: right;
+}
+
+.user-area{
+
+}
+
+.account-links{
+    margin-top: 15px;
+}
+
+.account-links ul li{
+    display: inline-block;
+    padding-right: 10px;
+}
+
+.account-links ul li:last-child{
+    padding-right: 0;
+}
+
+.content{
+    margin-top: 20px;
+}
+
+.featured, .featured-video, .suggested-videos{
+    display: inline-block;
+}
+
+.featured{
+    background-color: lightblue;
+    padding: 5px;
+}
+
+.featured h2{
+    margin: 5px auto;
+    font-size: 18px;
+}
+
+.suggestion-video, .suggestion-desc{
+    display: inline-block;
+}
+
+.suggestion{
+    padding: 3px;
+    max-width: 400px;
+}
+
+.right-rail{
+    display: inline-block;
+    width: 28%;
+    vertical-align: top;
+}
+
+.more-videos{
+    margin-top: 30px;
+    background-color: lightblue;
+    padding: 10px;
+}
+
+.video-item{
+    display: inline-block;
+    width: 24%;
+}
+
+.row{
+    padding-top: 10px;
+}
+
